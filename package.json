@@ -1,0 +1,19 @@
+{
+  "name": "0everything",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+       "commit": "pnpm --filter scripts commit",
+       "commit-clarifai": "pnpm --filter scripts commit-clarifai",
+       "scripts-prettier": "pnpm --filter scripts fmt",
+    "fix-grammar": "pnpm --filter scripts fix-grammar",
+    "fix-and-commit": "pnpm --filter scripts fix-grammar && pnpm --filter scripts commit-clarifai" 
+   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}

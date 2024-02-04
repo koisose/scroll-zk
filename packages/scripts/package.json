@@ -1,0 +1,25 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "node commit.mjs",
+    "commit-clarifai": "node commit-clarifai.js",
+    "fix-grammar": "node fix-grammar.js",
+    "fmt": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@google/generative-ai": "^0.1.1",
+    "clarifai-nodejs-grpc": "^10.0.3",
+    "dotenv": "^16.3.1",
+    "ky": "^1.1.3",
+    "prettier": "^3.0.3",
+    "showdown": "^2.1.0"
+  }
+}
