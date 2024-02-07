@@ -7,7 +7,7 @@
        "commit": "pnpm --filter scripts commit",
        "commit-clarifai": "pnpm --filter scripts commit-clarifai",
        "scripts-prettier": "pnpm --filter scripts fmt",
-       "heyportal-prettier": "pnpm --filter heyportal fmt",
+       "zk-quiz-prettier": "pnpm --filter zk-quiz fmt",
     "fix-grammar": "pnpm --filter scripts fix-grammar",
     "fix-and-commit": "pnpm --filter scripts fix-grammar && pnpm --filter scripts commit-clarifai" 
    },
